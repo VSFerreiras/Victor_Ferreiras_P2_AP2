@@ -88,6 +88,7 @@ dependencies {
 
     //room
     implementation("androidx.room:room-runtime:2.6.1")
+    implementation(libs.firebase.appdistribution.gradle)
     annotationProcessor("androidx.room:room-compiler:2.6.1")
     ksp("androidx.room:room-compiler:2.6.1")
     //  optional - Kotlin Extensions and Coroutines support for Room
