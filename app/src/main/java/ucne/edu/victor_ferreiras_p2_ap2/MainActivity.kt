@@ -1,6 +1,7 @@
 package ucne.edu.victor_ferreiras_p2_ap2
 
 import android.os.Bundle
+
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
