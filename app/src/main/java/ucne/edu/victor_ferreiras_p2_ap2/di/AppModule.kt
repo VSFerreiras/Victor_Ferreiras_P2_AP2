@@ -39,7 +39,7 @@ object AppModule {
     @Singleton
     fun provideRetrofit(okHttpClient: OkHttpClient, moshi: Moshi): Retrofit =
         Retrofit.Builder()
-            .baseUrl("https://gestionhuacalesapi.azurewebsites.net/api/Gastos")
+            .baseUrl("https://gestionhuacalesapi.azurewebsites.net/")
             .client(okHttpClient)
             .addConverterFactory(MoshiConverterFactory.create(moshi))
             .build()
